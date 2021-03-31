@@ -1,0 +1,56 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+.container{ display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 60vh;
+}
+
+header{background-image: linear-gradient(#D2A295,#BFD1D9);
+    display: flex;
+    justify-content: center;
+    }
+
+.title-header{font-size: 72px;
+            color: white;
+}
+
+.paragraph-header{font-size: 36px;
+                color: #9D7F7F;
+                width: 900px;
+                text-align: center;
+   
+}
+
+body{background-color: #BFD1D9;}
+
+.box-main{display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;}
+
+.title-main{font-size: 40px;}
+
+
+.container-main{display: flex;
+                justify-content: center;
+                align-items: center;
+               margin-bottom: 5rem; }
+
+.praticas-title{font-size: 36px;
+                margin-bottom: 2rem;
+                margin-left: 2rem;}
+
+.praticas-paragraph{font-size: 30px;
+                    width: 500px;
+                    margin-left: 2rem;}
+
+.circle{width: 200px;
+        height: 200px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
